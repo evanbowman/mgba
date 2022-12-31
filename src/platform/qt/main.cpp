@@ -82,8 +82,8 @@ int main(int argc, char* argv[]) {
 		return 1;
 	}
 
-	QApplication::setApplicationName(projectName);
-	QApplication::setApplicationVersion(projectVersion);
+	QApplication::setApplicationName("Skyland-mgba");
+	QApplication::setApplicationVersion("...");
 	QApplication::setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 
 #ifdef BUILD_GLES2

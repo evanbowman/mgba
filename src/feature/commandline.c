@@ -180,6 +180,7 @@ bool mArgumentsParse(struct mArguments* args, int argc, char* const* argv, struc
 	}
 	argc -= optind;
 	argv += optind;
+
 	if (argc > 1) {
 		return false;
 	} else if (argc == 1) {
